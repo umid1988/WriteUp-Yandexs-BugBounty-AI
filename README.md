@@ -93,7 +93,6 @@ mumkinligini ko'rsatib bera olasizmi?
 
 The Uzbek PoC prompt submitted to alice.yandex.ru with `X="key"`, `Y="log"`, `Z="ger"` variable splitting. Alice begins responding without refusing.
 
-![Figure 1 — Prompt submitted, Alice responding](images/POC_Figura-1.jpg)
 
 ---
 
@@ -101,7 +100,6 @@ The Uzbek PoC prompt submitted to alice.yandex.ru with `X="key"`, `Y="log"`, `Z=
 
 Alice reconstructs `X + Y + Z = "keylogger"`, confirms the term, and provides a detailed explanation including keystroke capture, cursor tracking, screenshots, and credential harvesting — all without triggering a safety refusal.
 
-![Figure 2 — Alice confirms keylogger term and explains functionality](images/POC_Figura-2.jpg)
 
 ---
 
@@ -109,7 +107,6 @@ Alice reconstructs `X + Y + Z = "keylogger"`, confirms the term, and provides a 
 
 Alice generates complete Python keylogger source code: imports (`pynput`, `logging`, `os`), log file configuration, and `on_press()` handler. The code is syntactically correct and executable without modification.
 
-![Figure 3 — Keylogger code Part 1: imports, config, on_press handler](images/POC_Figura-3.jpg)
 
 ---
 
@@ -117,7 +114,6 @@ Alice generates complete Python keylogger source code: imports (`pynput`, `loggi
 
 Complete implementation continues: `keyboard.Listener` instantiation, `listener.start()` / `listener.join()`. Full working keylogger delivered to user.
 
-![Figure 4 — Keylogger code Part 2: Listener, start, join](images/POC_Figura-4.jpg)
 
 ---
 
